@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(214, 229, 233);
+    background-color: rgb(231, 231, 231);
 }
 #imagem-principal {
     background-color: #0F4C3A;
@@ -26,6 +26,9 @@ body{
 }
 .barra-carrossel-preta {
     background-color: rgb(2, 92, 52);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
 }
 
 .titulo-secao {
@@ -34,6 +37,9 @@ body{
 }
 
 #imagem-secundaria {
+    display: flex;
+    justify-content: right;
+    object-position: right;
     border: 1px solid;
     border-radius: 20px;
     backdrop-filter: blur(10px); 
