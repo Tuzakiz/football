@@ -1,0 +1,50 @@
+ .textos {
+ size-adjust: calc();
+}
+
+body{
+    background-color: rgb(214, 229, 233);
+}
+#imagem-principal {
+    background-color: #0F4C3A;
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    outline: 2px solid rgb(2, 92, 52);
+    outline-offset: 2px;
+    width: 700;
+    height: 500;
+    object-fit: cover;   
+    object-position: center;  
+    display: block;
+    width: 30.5rem; 
+    height: 20.5rem;
+    margin: 1.5rem;
+}
+.barra-carrossel-preta {
+    background-color: rgb(2, 92, 52);
+}
+
+.titulo-secao {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 14px;
+}
+
+#imagem-secundaria {
+    border: 1px solid;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    outline: 2px solid rgb(63, 75, 69);
+    outline-offset: 2px;
+    object-fit: cover;   
+    object-position: center;  
+    display: block;
+    width: 15.5rem; 
+    height: 10.5rem;
+    margin: 1.5rem;
+}
