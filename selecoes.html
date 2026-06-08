@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickfy - Seleções</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://media.discordapp.net/attachments/1498831907524186187/1512256358727286845/Untitled_Project-removebg-preview.png">
+</head>
+<body>
+
+    <header class="menuprincipal">
+        <div class="logo">
+            <img src="https://media.discordapp.net/attachments/1498831907524186187/1512256358727286845/Untitled_Project-removebg-preview.png" alt="Logo" width="50" height="50">
+            <span>Kickfy</span>
+        </div>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="index.html">JOGOS</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="selecoes.html">SELEÇÕES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-secao">
+        <video autoplay loop muted playsinline>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-playing-football-in-the-stadium-vibe-43283-large.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="hero-conteudo">
+            <h1>Alertas de Jogos</h1>
+            <p>Escolha seus times favoritos e não perca nenhum lance.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2>Formulário do Torcedor</h2>
+        
+        <form action="#" method="POST">
+            <div class="grupo-form">
+                <label for="email">Deixe seu melhor E-mail:</label>
+                <input type="email" id="email" name="email_torcedor" placeholder="exemplo@email.com" required>
+            </div>
+
+            <fieldset>
+                <legend>Selecione as seleções que deseja acompanhar</legend>
+                
+                <label class="checkbox-linha" for="brasil">
+                    <input type="checkbox" id="brasil" name="selecao" value="brasil">
+                    <span>Brasil 🇧🇷</span>
+                </label>
+
+                <label class="checkbox-linha" for="argentina">
+                    <input type="checkbox" id="argentina" name="selecao" value="argentina">
+                    <span>Argentina 🇦🇷</span>
+                </label>
+
+                <label class="checkbox-linha" for="franca">
+                    <input type="checkbox" id="franca" name="selecao" value="franca">
+                    <span>França 🇫🇷</span>
+                </label>
+            </fieldset>
+
+            <button type="submit" class="btn-inscrever">
+                <img src="https://www.svgrepo.com/show/532309/bell.svg" alt="Ícone Sino">
+                <span>Inscrever-se</span>
+            </button>
+        </form>
+    </main>
+
+</body>
+</html>
